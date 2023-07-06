@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App{
+  background-color: #0164e6;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+
+}
+
+.firstbox{
+  height: 80vh;
+  width: 120%;
+  background-color: white;
+  margin: 80px;
+  border-radius: 20px;
+
+}
+
+.secondbox{
+  height: 80vh;
+  width: 120%;
+  background-color: white;
+  margin: 80px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.thirdbox{
+  height: 80vh;
+  width: 120%;
+  background-color: white;
+  margin: 80px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.dollar{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn{
+  font-size: 80%;
+  letter-spacing: .1rem;
+  width: 80%;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+  height: 9%;
+  background-color: #1b77fe;
+  border-radius: 5rem;
+  margin-top: auto; /* Adjusted */
+  margin-bottom: 2%; /* Added */
+  border: 2px solid #6996da;
+}
+
+.month{
+  font-size: 0.8rem;
+}
+
+.version{
+  opacity: 0.5;
+}
+
+.btn:hover{
+  background-color:  blue;
+  cursor: pointer;
+}
+
+.ul>li {
+  margin-top: 4%;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight:400;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  
+
+}
+
+.users{
+    font-weight: bold;
+}
+
+.firstbox:hover {
+  transform: translateY(-4px);
+} 
+
+.secondbox:hover {
+  transform: translateY(-4px);
+} 
+
+.thirdbox:hover {
+  transform: translateY(-4px);
+} 
